@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      box-sizing: inherit;
+  }
+  /* styling main */
+  .main{
+      text-align: justify;
+      margin: 5% 25% 5% 25%;
+  }
+  /* Fieldset style */
+  .form_fieldset{
+    background: linear-gradient(to bottom, rgba(202, 202, 104, 0.123), rgba(0, 128, 0, 0.144));
+    text-align: justify;
+    padding: 10% ;
+    border: none;
+    
+  }
+  .upload{
+    background: linear-gradient(to right, rgba(142, 170, 182, 0.151), lightblue);
+     padding: 2% 10%;
+  }
+  /* caption style */
+  .legend{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+  }
+  /* labels */
+  .label{
+    font-size: 18px;
+  }
+  .label_1{
+    display: inline-block;
+    margin: 0 13.5% 2% 0;
+  }
+  .label_2{
+    display: inline-block;
+    margin: 0 1% 2% 0;
+  }
+  .label_3{
+    display: inline-block;
+    margin: 0 8.5% 2% 0;
+  }
+  .label_4{
+    display: inline-block;
+    margin: 0 5.9% 2% 0;
+  }
+  .style-label{
+    font-size: 20px;
+    display: inline-block;
+  }
+  .margin{
+    margin-bottom: 1%;
+  }
+  .input{
+    background: rgba(61, 60, 60, 0.144);
+    color:cornflowerblue;
+    font-size: 25px;
+    width: 90%;
+    height: 6.8vh;
+    border-radius: 10px;
+    border: none;
+    padding: 1%;
+  }
+  .input:focus{
+    outline: none;
+  }
+  .date{
+    border: none;
+    margin: 2% 0 2% 2%;
+    width: 30%;
+    height: 6vh;
+    text-align: center;
+    background: rgba(195, 250, 250, 0.158);
+    font-size: 30px;
+  }
+  .date:focus{
+    outline: none;
+  }
+  .select{
+    width: 40%;
+    height: 6vh;
+    border-radius: 10px;
+    padding: 0  0 0 3%;
+    font-size: 20px;
+    background: rgba(231, 188, 197, 0.123);
+  }
+  .btn{
+    height: 8vh;
+    width: 40%;
+    margin-top: 5%;
+    border-radius: 10px;
+    border: none;
+    background: rgb(84, 182, 84);
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .btn:focus{
+    outline: none;
+  }
